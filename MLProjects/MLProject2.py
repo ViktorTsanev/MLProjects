@@ -70,6 +70,11 @@ plt.legend(['Training error', 'Test error', 'Test minimum'])
 plt.grid()
 # plt.show()
 
+print("Training errors: ")
+print(train_err_vs_lambda)
+print("Lambdas: ")
+print(lambdas)
+
 print('- Training error: {0}'.format(train_err_vs_lambda.mean()))
 print('- Test error:     {0}'.format(test_err_vs_lambda.mean()))
 
